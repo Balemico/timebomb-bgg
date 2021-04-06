@@ -1,5 +1,7 @@
 # TimeBomb!
 
+![timebomb-preview](./Timebomb_screenshot.PNG)
+
 Semplice applicazione web che esegue lo scraping dei prodotti in offerta temporanea del sito [DungeonDice](https://www.dungeondice.it/366-offerte-a-tempo), li elenca in un una tabella, e ne individua per ciascuno il relativo rating (valutazione generata dalla community di appassionati) sul noto portale [BoardGameGeek](https://boardgamegeek.com/).
 
 La parte frontend è stata sviluppata con ReactJS. Consiste in una applicazione a singola pagina, in cui viene costruita la tabella dei prodotti ricevuti dal backend in risposta a chiamate API asincrone.
