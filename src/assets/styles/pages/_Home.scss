@@ -1,0 +1,17 @@
+.games {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	height: 100%;
+}
+.games__container {
+	width: 100%;
+	max-width: 980px;
+	padding: 0;
+}
+
+.games__title {
+	padding: 2rem;
+	text-align: center;
+}

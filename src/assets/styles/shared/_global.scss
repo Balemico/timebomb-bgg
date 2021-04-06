@@ -1,0 +1,37 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	height: 100%;
+}
+
+a {
+	color: rgba(#6da854, 0.8);
+	font-weight: bold;
+	text-decoration: none;
+	transition: color 0.2s ease-in-out;
+	&:hover {
+		color: #6da854;
+	}
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+.app {
+	height: 100%;
+	background: rgb(131, 58, 180);
+	background: linear-gradient(
+		135deg,
+		rgba(131, 58, 180, 0.6) 0%,
+		rgba(253, 29, 29, 0.6) 50%,
+		rgba(252, 176, 69, 0.6) 100%
+	);
+}
