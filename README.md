@@ -6,8 +6,8 @@ La parte frontend è stata sviluppata con ReactJS. Consiste in una applicazione 
 
 Il backend è sviluppato con flask - nella sua versione restful - ed espone le API necessarie al funzionamento ai seguenti endpoint:
 
--[GET] /api/timebomb/:page - per mezzo del modulo _beautifulsoup_ viene eseguito lo scraping della pagina delle offerte, restituendo un oggetto popolato dai campi opportuni di ciascun prodotto (titolo, link, immagine, prezzo scontato, prezzo regolare). Il numero della pagina richiesto è quello indicato dalla variabile _page_ passata come argomento.
--[GET] /api/game/:title - il titolo di ciascun prodotto viene quindi usato come argomento dal modulo [BGG-Client](https://github.com/marcioos/bgg-client), andando a catturare le relative informazioni memorizzate nel portale, in particolare il rating generato dalla community.
+-   [GET] /api/timebomb/:page - per mezzo del modulo _beautifulsoup_ viene eseguito lo scraping della pagina delle offerte, restituendo un oggetto popolato dai campi opportuni di ciascun prodotto (titolo, link, immagine, prezzo scontato, prezzo regolare). Il numero della pagina richiesto è quello indicato dalla variabile _page_ passata come argomento.
+-   [GET] /api/game/:title - il titolo di ciascun prodotto viene quindi usato come argomento dal modulo [BGG-Client](https://github.com/marcioos/bgg-client), andando a catturare le relative informazioni memorizzate nel portale, in particolare il rating generato dalla community.
 
 Al termine delle chiamate, ogni riga viene popolata e aggiornata con le informazioni provenienti da entrambi gli endpoint.
 
